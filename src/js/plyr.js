@@ -805,7 +805,7 @@
             return {
                 url: config.iconUrl,
                 // If you're using svg4everybody you don't need absolute paths
-                absolute: config.iconUrl.indexOf('http') === 0 || (plyr.browser.isIE && !window.svg4everybody),
+                absolute: false,
             };
         }
 

@@ -60,7 +60,7 @@
             },
             selectors: {
                 html5: 'video, audio',
-                embed: '[data-type]',
+                embed: '',
                 editable: 'input, textarea, select, [contenteditable]',
                 container: '.plyr',
                 controls: {
